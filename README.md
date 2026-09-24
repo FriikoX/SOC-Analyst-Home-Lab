@@ -47,5 +47,5 @@ _Problems I ran into and how I solved them will be added here._
 
 ## About Me
 Cybersecurity student at the University of Telecommunications and Posts.
-LinkedIn: <your LinkedIn link>
+LinkedIn: <your LinkedIn link> https://www.linkedin.com/in/alexander-penchev-b136a0412/
 
