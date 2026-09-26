@@ -43,12 +43,8 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 _Links to each scenario write-up will be added here as I complete them._
 
 ## Lessons Learned & Troubleshooting
-_Problems I ran into and how I solved them will be added here._
-
-**1st encounter |** _During installing the Wazuh SIEM server on my Ubuntu VM, I ran into a problem where
-the ubuntu's guided LVM partitioning only allocated half the disk to the root volume by default.
-As we know, Wazuh requires 50 GB Storage at least for 1-25 agents, working on logs that are stored on the said server.
-I managed to fix it by extending the logical volume with lvextend and resize2fs instead of reinstalling.._
+See [troubleshooting.md](troubleshooting.md) for issues encountered
+and how they were resolved.
 
 ## About Me
 Cybersecurity student at the University of Telecommunications and Posts.
