@@ -44,6 +44,7 @@ _Links to each scenario write-up will be added here as I complete them._
 
 ## Lessons Learned & Troubleshooting
 _Problems I ran into and how I solved them will be added here._
+
 **1** _During installing the Wazuh SIEM server on my Ubuntu VM, I ran into a problem where
 the ubuntu's guided LVM partitioning only allocated half the disk to the root volume by default.
 As we know, Wazuh requires 50 GB Storage at least for 1-25 agents, working on logs that are stored on the said server.
