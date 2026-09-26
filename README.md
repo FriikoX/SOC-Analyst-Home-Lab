@@ -5,7 +5,7 @@ investigation, built with open-source tools.
 
 ## Goal
 Hello, my name is Alexander!
-Thank you for considering me by reading this README file, and frankly, here I will be
+Thank you for the attention you're giving me by reading this README file, and frankly, here I will be
 documenting my progress, and therefore, building experience, one step at a time.
 I am an aspiring cybersecurity professional who acquired CompTIA's Network+ certification, currently going
 through CompTIA's Security+ course, and I'm actively seeking job opportunities. 
