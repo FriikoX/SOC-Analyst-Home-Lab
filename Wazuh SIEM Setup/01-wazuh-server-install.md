@@ -30,8 +30,3 @@ Windows → Sysmon → Operational
 ## Result
 Sysmon is installed and actively logging events locally on the VM.
 <img width="1021" height="770" alt="Sysmon-EventViewer-Operational" src="https://github.com/user-attachments/assets/ef8dabf9-aa64-4b80-b460-fd830a934e1d" />
-
-## Next steps
-- Put this VM on the same NAT Network as the Wazuh server VM
-- Install the Wazuh agent and connect it to the manager
-- Confirm Sysmon events are forwarded and visible in the Wazuh dashboard
