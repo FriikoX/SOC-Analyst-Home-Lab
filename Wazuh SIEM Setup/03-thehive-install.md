@@ -28,6 +28,6 @@ working login. Full details in [troubleshooting.md](../troubleshooting.md):
 ## Result
 Cassandra, Elasticsearch and TheHive are successfuly installed on the VMs, and ready to get to work!
 
-**TheHive dashboard, already logged in, ready to work!
+**TheHive dashboard, already logged in, ready to work!**
 <img width="1918" height="1026" alt="TheHive dashboard" src="https://github.com/user-attachments/assets/74abfac0-df76-4889-ab0e-5225446b226f" />
 
