@@ -31,3 +31,17 @@ from the host by default.
 **Fix:** Added a port forwarding rule (host port 8443 → guest port
 443) via VirtualBox's NAT Network Manager, then accessed the
 dashboard at `https://localhost:8443`.
+
+## Issue: Netplan syntax & Indentation 
+**Cause:** Running `netplan apply` threw invalid YAML errors (`inconsistent indentation`, `Invalid YAML: aliases are not supported`).
+**Fix:** Completely reset the Netplan configuration to ensure clean YAML structure:
+   ```bash
+   sudo rm /etc/netplan/00-installer-config.yaml
+   sudo nano /etc/netplan/00-installer-config.yaml
+```
+
+## Issue: Unreachable Repository URL
+**Cause:** `eb.strangebee.com` is a dedicated APT package repository endpoint intended for automated package managers (`apt`/`gpg`), not a human-facing web interface.
+**Fix:** Switched execution to StrangeBee’s automated installation handler script, which directly fetches necessary keys and configures repository sources programmatically.
+
+
