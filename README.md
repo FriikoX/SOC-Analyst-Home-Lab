@@ -19,7 +19,7 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 |---|---|---|
 | Windows 11 | Monitored endpoint (Sysmon + Wazuh agent) | Created |
 | Ubuntu Server | Wazuh server (manager, indexer, dashboard) | Created |
-| Ubuntu Server | TheHive + Shuffle | Planned |
+| Ubuntu Server | TheHive + Shuffle | Created/ToBeDone |
 | Kali Linux | Attack simulation | Planned |
 
 
