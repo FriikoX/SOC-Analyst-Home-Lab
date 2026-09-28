@@ -1,4 +1,4 @@
-# 01 - TheHive (Case management software)
+# 03 - TheHive (Case management software)
 ## What I did
 I installed TheHive onto an existing Ubuntu 22.04 LTS
 ## VM specs
