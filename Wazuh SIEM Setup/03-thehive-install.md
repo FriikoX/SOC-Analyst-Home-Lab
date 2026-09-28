@@ -1,6 +1,7 @@
 # 03 - TheHive (Case management software)
 ## What I did
-I installed TheHive onto an existing Ubuntu 22.04 LTS
+I installed TheHive to act as the case management platform of this homelab.
+
 ## VM specs
 - OS: Ubuntu 22.04 LTS jammy
 - RAM: 16384 MB
