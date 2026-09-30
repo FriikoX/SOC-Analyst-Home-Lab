@@ -50,4 +50,17 @@ dashboard at `https://localhost:8443`.
 
 **Fix:** Switched execution to StrangeBee’s automated installation handler script, which directly fetches necessary keys and configures repository sources programmatically.
 
+## Issue: WazuhSvc synchronization and setup errors
+**What happened:** When I was setting up the Wazuh agent from the Windows VM, I couldn't really download and setup the whole process through the PowerShell
+
+**Fix:** While I couldn't understand as to why that was happening, I managed to find a solution by downloading it manually through the GUI, and I ended connecting it as an agent successfully.
+
+
+## Issue: Issues with cassandra and user logon in TheHive
+
+**Cause:** Cassandra wasn't receiving appropriate queries and was not having an established link with TheHive.
+
+**Fix:** While I was configuring the configuration files of both cassandra and thehive, I forgot to specify which node and data base to be used.
+And since I'm using only 1 node, I managed to set it as a ``single-node`` setting, and I also set the datacenter to use ``datacenter-1``.
+
 
