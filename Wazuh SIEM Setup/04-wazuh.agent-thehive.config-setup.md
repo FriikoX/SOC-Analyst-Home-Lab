@@ -11,11 +11,12 @@ networking and the connections will have to look so they actually work, so I had
 to its service and application.
 
 ## Issues along the way
-This time I really didn't experience that many issues, so I will document the only one
-I received here:
+Ran into configuration issues with Cassandra and Wazuh Agent, for more details go to (troubleshooting.md). 
+
 - I couldn't start the WazuhSvc which allows me to use my Windows VM as an agent.
-Solution: Since I couldn't start it through powershell, I simply entered ``%TEMP%`` through ``Win + R``
-and removed it, then downloaded it from there, and then it worked.
+
+- While I was configuring cassandra's database for alert, user, log storage, there was an issue
+with the association with TheHive.
 
 ## Result
 **Setup installed and configured successfully.** (TheHive is configured and setup correctly with networking configuration. Windows VM connected correctly and is active as an Agent in the dashboard of Wazuh.)
