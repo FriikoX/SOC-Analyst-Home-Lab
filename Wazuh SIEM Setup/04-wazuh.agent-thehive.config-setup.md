@@ -11,7 +11,7 @@ networking and the connections will have to look so they actually work, so I had
 to its service and application.
 
 ## Issues along the way
-Ran into configuration issues with Cassandra and Wazuh Agent, for more details go to (troubleshooting.md). 
+Ran into configuration issues with Cassandra and Wazuh Agent, for more details go to [troubleshooting.md](../troubleshooting.md). 
 
 - I couldn't start the WazuhSvc which allows me to use my Windows VM as an agent.
 
