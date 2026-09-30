@@ -35,7 +35,7 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 - [x] Windows 11 VM created
 - [x] Wazuh server installed (Ubuntu)
 - [x] Sysmon installed on Windows VM
-- [ ] Wazuh agent connected to server
+- [x] Wazuh agent connected to server
 - [ ] TheHive and Shuffle integration
 - [ ] First attack scenario and investigation
 
