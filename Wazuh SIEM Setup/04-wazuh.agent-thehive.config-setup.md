@@ -14,7 +14,7 @@ to its service and application.
 This time I really didn't experience that many issues, so I will document the only one
 I received here:
 - I couldn't start the WazuhSvc which allows me to use my Windows VM as an agent.
-Solution: Since I couldn't start it through powershell, I simply entered ``%TEMP%`` through the ``Win + R``
+Solution: Since I couldn't start it through powershell, I simply entered ``%TEMP%`` through ``Win + R``
 and removed it, then downloaded it from there, and then it worked.
 
 ## Result
