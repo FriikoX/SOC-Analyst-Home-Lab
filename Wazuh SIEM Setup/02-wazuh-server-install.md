@@ -35,6 +35,4 @@ filebeat, dashboard) are running, and the dashboard is accessible.
 **Wazuh dashboard, logged in and ready:**
 <img width="1919" height="1032" alt="Successful-Installation-Interface" src="https://github.com/user-attachments/assets/72e1c657-7ff5-4817-b43f-a3e24b1913da" />
 
-The dashboard currently shows 0 agents, since no endpoints have been
-connected yet. Next step: install the Wazuh agent on the Windows VM
-and connect it to this manager.
+Successful agent implementation [Wazuh Agent](04-wazuh.agent-thehive.config-setup.md)
