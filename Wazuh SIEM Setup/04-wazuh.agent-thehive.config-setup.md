@@ -15,8 +15,7 @@ Ran into configuration issues with Cassandra and Wazuh Agent, for more details g
 
 - I couldn't start the WazuhSvc which allows me to use my Windows VM as an agent.
 
-- While I was configuring cassandra's database for alert, user, log storage, there was an issue
-with the association with TheHive.
+- Received Authentication Errors/Authentication Failure when trying to login as an admin into TheHive.
 
 ## Result
 **Setup installed and configured successfully.** (TheHive is configured and setup correctly with networking configuration. Windows VM connected correctly and is active as an Agent in the dashboard of Wazuh.)
