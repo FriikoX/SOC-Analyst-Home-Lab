@@ -6,7 +6,7 @@ Gave permissions to cassandra and elasticsearch to have access to the directory 
 way they can edit/remove/add anything if needed.
 
 ## Networking
-Thanks to the certification CompTIA Network+, I already had an idea as to how the
+Thanks to the CompTIA Network+ certification, I already had an idea as to how the
 networking and the connections will look, so I had no issues addressing every IP, every port
 to its service, etc.
 
