@@ -14,11 +14,11 @@ Those are the minimum required requirements for installing and running TheHive
 I will be using TheHive for my case management and log entries, later on
 connecting it with Shuffle so it can register logs through windows' telemetry and the wazuh agent that is installed on the my windows vm.
 
-##Networking
+## Networking
 The VM runs on a VirtualBox NAT Network, shared with the Windows endpoint and Wazuh SIEM so that the three machines can communicate. 
 The dashboard is accessed from the host via port forwarding to `https://localhost:9000`.
 
-#Issues along the way
+# Issues along the way
 Ran into a few setup problems before getting a clean install and a
 working login. Full details in [troubleshooting.md](../troubleshooting.md):
 - Netplan syntax & Indentation
