@@ -43,8 +43,8 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 _Links to each scenario write-up will be added here as I complete them._
 
 ## Lessons Learned & Troubleshooting
-See [Troubleshooting Solutions](troubleshooting.md) for issues encountered
-and how they were resolved.
+See [Troubleshooting Solutions](troubleshooting.md) for issues I encountered
+and how I resolved them.
 
 ## About Me
 Cybersecurity student at the University of Telecommunications and Posts.
