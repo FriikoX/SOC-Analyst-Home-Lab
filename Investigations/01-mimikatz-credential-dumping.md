@@ -52,7 +52,7 @@ I mapped the attack to MITRE ATT&CK id T1003 which stands for **credentials dump
 
 ## Incident Summary (client-style)
 > A credential dumping attempt was detected on host 10.0.2.4 at
-> 2026-10-05T16:26:47.516Z. The process `mimikatz.exe` was observed executing,
+> 2026-10-05T16:26:47 UTC+3. The process `mimikatz.exe` was observed executing,
 > consistent with MITRE ATT&CK technique T1003 (OS Credential
 > Dumping). Recommend isolating the host, resetting credentials for
 > any accounts active on the system at the time, and reviewing for
