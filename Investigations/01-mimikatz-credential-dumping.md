@@ -17,9 +17,9 @@ Dumping).
 3. Wrote a custom Wazuh rule to detect Mimikatz execution based on ``originalFileName``.
 4. Confirmed the alert fired correctly in the Wazuh dashboard.
 
-````
-## Detection Logic
 
+## Detection logic
+````
 ```xml
 <rule id="100002" level="15">
   <if_group>sysmon_event1</if_group>
