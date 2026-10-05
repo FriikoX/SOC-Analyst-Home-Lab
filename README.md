@@ -36,11 +36,11 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 - [x] Wazuh server installed (Ubuntu)
 - [x] Sysmon installed on Windows VM
 - [x] Wazuh agent connected to server
+- [x] First attack scenario and investigation
 - [ ] TheHive and Shuffle integration
-- [ ] First attack scenario and investigation
 
 ## Investigations
-_Links to each scenario write-up will be added here as I complete them._
+[Check out investigations!](/Investigations/investigations.md)
 
 ## Lessons Learned & Troubleshooting
 See [Troubleshooting Solutions](troubleshooting.md) for issues I encountered
