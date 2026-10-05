@@ -40,7 +40,7 @@ All machines run as virtual machines in VirtualBox on a Windows host.
 - [ ] TheHive and Shuffle integration
 
 ## Investigations
-[Check out investigations!](/Investigations/investigations.md)
+[Check out investigations!](/Investigations)
 
 ## Lessons Learned & Troubleshooting
 See [Troubleshooting Solutions](troubleshooting.md) for issues I encountered
