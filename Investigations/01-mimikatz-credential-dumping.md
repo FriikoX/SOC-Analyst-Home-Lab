@@ -19,15 +19,15 @@ Dumping).
 
 ## Detection Logic
 ​```xml
-  <rule id="100002" level="15">
-    <if_group>sysmon_event1</if_group>
-    <field name="win.eventdata.originalFileName" type="pcre2">(?i)mimikatz\.exe</field>
-    <description>Mimikatz usage detected</description>
-    <mitre>
-      <id>T1003</id>
-    </mitre>
-  </rule>
-​```
+<rule id="100002" level="15">
+  <if_group>sysmon_event1</if_group>
+  <field name="win.eventdata.originalFileName" type="pcre2">(?i)mimikatz\.exe</field>
+  <description>Mimikatz usage detected</description>
+  <mitre>
+    <id>T1003</id>
+  </mitre>
+</rule>
+```
 
 **What the rule matches on:**
 Custom rule briefly explained, is written so that it can detect and register the alert as ID 100002, as severity
