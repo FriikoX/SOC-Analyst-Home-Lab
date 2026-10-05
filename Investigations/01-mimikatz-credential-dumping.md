@@ -57,7 +57,17 @@ I mapped the attack to MITRE ATT&CK id T1003 which stands for **credentials dump
 > Dumping). Recommend isolating the host, resetting credentials for
 > any accounts active on the system at the time, and reviewing for
 > lateral movement.
+> False-Positive potential is low.
 
 ## Lessons Learned
-I'd recommend the user/client to be careful what they're downloading and where they're downloading it from. As well as updating their system
-to the latest patches and updates available, and making sure that they're not clicking on suspicious URLs or any URL they are unfamiliar with.
+This was my first time writing a custom Wazuh rule from scratch, and I
+learned that matching on the process name alone isn't enough, since an
+attacker could just rename mimikatz.exe to something harmless-looking
+and go past just like that the rule. Using the `originalFileName` field instead
+catches that, since it looks at the file's actual "Original File Name" or metadata, not just
+what it's called. I didn't know this field existed before this project, so that was a good discovery.
+I'd also like to improve this rule later by also checking for LSASS
+access (Sysmon Event ID 10), since that's another way credential
+dumping tools show up, not just by running mimikatz.exe directly.
+Overall, this helped me understand why it's actually of importance
+to think about how an attacker might try to get around it.
