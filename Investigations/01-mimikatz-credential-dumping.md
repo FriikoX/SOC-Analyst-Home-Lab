@@ -38,10 +38,12 @@ I mapped the attack to MITRE ATT&CK id T1003 which stands for **credentials dump
 ## Evidence
 
 **Sysmon event showing Mimikatz execution:**
+
 <img width="615" height="596" alt="Screenshot_6" src="https://github.com/user-attachments/assets/ad6c5f59-ad01-4b45-bf83-87b8eb6f90e2" />
 
 
 **Wazuh alert triggered:**
+
 <img width="1871" height="64" alt="Screenshot_5" src="https://github.com/user-attachments/assets/2ae328cc-f89f-49d5-b044-7704660e693c" />
 
 
