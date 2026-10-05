@@ -26,8 +26,8 @@ Dumping).
   <mitre>
     <id>T1003</id>
   </mitre>
-</rule>
-```
+</rule> ```
+
 
 **What the rule matches on:**
 Custom rule briefly explained, is written so that it can detect and register the alert as ID 100002, as severity
