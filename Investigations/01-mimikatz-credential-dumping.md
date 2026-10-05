@@ -20,7 +20,7 @@ Dumping).
 
 ## Detection logic
 ````
-```xml
+```
 <rule id="100002" level="15">
   <if_group>sysmon_event1</if_group>
   <field name="win.eventdata.originalFileName" type="pcre2">(?i)mimikatz\.exe</field>
