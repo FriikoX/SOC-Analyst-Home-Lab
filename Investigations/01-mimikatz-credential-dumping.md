@@ -17,8 +17,10 @@ Dumping).
 3. Wrote a custom Wazuh rule to detect Mimikatz execution based on ``originalFileName``.
 4. Confirmed the alert fired correctly in the Wazuh dashboard.
 
+````
 ## Detection Logic
-​```xml
+
+```xml
 <rule id="100002" level="15">
   <if_group>sysmon_event1</if_group>
   <field name="win.eventdata.originalFileName" type="pcre2">(?i)mimikatz\.exe</field>
@@ -26,7 +28,9 @@ Dumping).
   <mitre>
     <id>T1003</id>
   </mitre>
-</rule> ```
+</rule>
+```
+````
 
 
 **What the rule matches on:**
